@@ -1,6 +1,6 @@
 .row:before,
 .row:after {
-    content: "";
+    content: " ";
     display: table;
 }
 
