@@ -316,3 +316,85 @@ ABOUT
 .about button i {
     margin-right: 5px;
 }
+
+
+/*
+==================
+CONTACT ME
+==================
+*/
+
+.contact {
+    height: 808px;
+}
+
+.contact .container {
+    flex-direction: column;
+    width: 57%;
+    margin: auto;
+}
+
+.contact .row:first-child {
+    margin-top: 100px;
+}
+
+.contact h1 {
+    font-size: 42px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact form {
+    position: relative;
+    top: -30px;
+}
+
+.contact form input,
+.contact form textarea {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: #55556f;
+    border: none;
+    border-top: 1px solid #eee;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 25px 10px 0 10px;
+    outline: none;
+}
+
+.contact form textarea {
+    height: 160px;
+    resize: none;
+}
+
+.contact form::-webkit-input-placeholder {
+    color: #9999a8;
+}
+
+.contact form div {
+    border-top: 1px solid #eee;
+    padding: 25px 10px;
+    margin: none;
+}
+
+.contact form button {
+    background-color: #18bc9c;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #128f76;
+}
+
+.contact form button:active {
+    background-color: #02b875;
+}
