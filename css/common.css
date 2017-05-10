@@ -6,6 +6,7 @@
 
 .container {
     display: flex;
+    min-width: 1200px;
 }
 
 .row:after {

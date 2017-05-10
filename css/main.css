@@ -33,7 +33,7 @@ nav .nav-wrap a {
     font-size: 28px;
     letter-spacing: normal;
     position: relative;
-    left: -23px;
+    left: 15px;
 }
 
 .nav-wrap .start:hover {
@@ -43,7 +43,7 @@ nav .nav-wrap a {
 .nav-right {
     position: relative;
     top: 22px;
-    right: -23px;
+    right: 15px;
     width: 315px;
 }
 
